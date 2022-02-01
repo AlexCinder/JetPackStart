@@ -9,6 +9,7 @@ import kotlin.math.min
 import kotlin.random.Random
 
 object GameRepositoryImpl : GameRepository {
+
     private const val MIN_SUM_VALUE = 2
     private const val MIN_ANSWER_VALUE = 1
 
@@ -44,10 +45,10 @@ object GameRepositoryImpl : GameRepository {
                 20,
                 20,
                 80,
-                4
+                50
             )
             Level.HARD -> GameSettings(
-                30,
+                40,
                 30,
                 90,
                 40
